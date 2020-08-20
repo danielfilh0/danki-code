@@ -1,0 +1,27 @@
+@mixin boxShadow()
+	-webkit-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75)
+	-moz-box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75)
+	box-shadow: 10px 10px 36px -7px rgba(0,0,0,0.75)
+
+section.descricao-danki-3
+	padding: 30px 0 60px 0
+	>.container 
+		max-width: 960px
+		background-image: url('../images/bg2.jpg')
+		background-size: cover
+		min-height: 350px
+		position: relative
+
+.box-depoimento 
+	position: absolute
+	left: 50%
+	bottom: -30px
+	width: 70%
+	max-width: 506px
+	background: white
+	padding: 10px 30px
+	@include boxShadow()
+	p
+		font-size: 18px
+		color: #31475e
+		font-weight: lighter

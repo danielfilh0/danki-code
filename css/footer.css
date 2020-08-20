@@ -1,0 +1,40 @@
+footer {
+  margin: 50px 0; }
+
+.box-footer {
+  float: left;
+  width: 33.3%;
+  padding: 0 15px; }
+  .box-footer h2 {
+    color: #31475e;
+    font-size: 22px;
+    font-weight: normal; }
+  .box-footer p {
+    margin-top: 10px;
+    color: #31475e;
+    font-size: 15px; }
+  .box-footer form {
+    margin-top: 10px; }
+  .box-footer input[type=text] {
+    width: 80%;
+    max-width: 208px;
+    padding-left: 10px;
+    height: 43px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border: 1px solid #bfbfbf; }
+  .box-footer input[type=text]:focus {
+    outline: 0; }
+  .box-footer button {
+    width: calc(20% - 10px);
+    margin-left: 10px;
+    max-width: 63px;
+    height: 43px;
+    border: 1px solid #31475e;
+    border-radius: 50px;
+    background: white; }
+    .box-footer button i {
+      color: #31475e;
+      cursor: pointer; }
+
+/*# sourceMappingURL=footer.css.map */

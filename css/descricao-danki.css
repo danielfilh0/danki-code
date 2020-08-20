@@ -1,0 +1,11 @@
+section.descricao-danki {
+  padding: 30px 0;
+  text-align: center; }
+  section.descricao-danki p {
+    display: inline-block;
+    max-width: 680px;
+    font-weight: lighter;
+    font-size: 22px;
+    font-style: italic; }
+
+/*# sourceMappingURL=descricao-danki.css.map */

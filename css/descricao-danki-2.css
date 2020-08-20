@@ -1,0 +1,25 @@
+section.descricao-danki-2 {
+  padding: 50px 0; }
+  section.descricao-danki-2 > .container {
+    max-width: 960px; }
+  section.descricao-danki-2 img {
+    width: 45%;
+    float: left;
+    max-width: 500px; }
+
+.texto-descricao {
+  padding: 0 15px;
+  float: left;
+  width: 55%; }
+  .texto-descricao h2 {
+    color: #31475e;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: normal; }
+  .texto-descricao p {
+    margin-top: 15px;
+    color: #6a7c92;
+    font-size: 15px;
+    line-height: 25px; }
+
+/*# sourceMappingURL=descricao-danki-2.css.map */

@@ -1,0 +1,94 @@
+header {
+  background-image: url("../images/bg.jpg");
+  min-height: 500px;
+  padding: 30px 0;
+  background-size: cover;
+  background-position: center; }
+
+.logo {
+  position: relative;
+  z-index: 2;
+  background-image: url("../images/logo.png");
+  background-size: 100% 100%;
+  float: left;
+  width: 132px;
+  height: 20px; }
+
+nav.desktop {
+  float: right; }
+  nav.desktop ul {
+    list-style-type: none; }
+    nav.desktop ul li {
+      display: inline-block;
+      margin: 0 15px; }
+  nav.desktop a {
+    color: white;
+    text-decoration: none; }
+
+nav li.btn-nav {
+  padding: 3px 8px;
+  border-radius: 20px;
+  border: 1px solid white; }
+
+nav.mobile {
+  display: none;
+  float: right; }
+  nav.mobile ul {
+    display: none;
+    background: #31475e;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 70px 0 30px 0;
+    text-align: center; }
+    nav.mobile ul li.btn-nav {
+      display: inline-block;
+      padding: 4px 10px; }
+    nav.mobile ul li {
+      padding: 10px 0; }
+      nav.mobile ul li a {
+        color: white;
+        text-decoration: none;
+        display: block; }
+  nav.mobile h3 {
+    position: relative;
+    z-index: 2;
+    top: -10px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px; }
+
+div.chamada-header {
+  padding: 110px 0; }
+  div.chamada-header h2 {
+    font-size: 47px;
+    color: white; }
+  div.chamada-header p {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    margin-top: 30px;
+    max-width: 600px; }
+  div.chamada-header form {
+    margin-top: 30px; }
+  div.chamada-header input[type=email] {
+    display: inline-block;
+    border-radius: 20px;
+    background: white;
+    width: 237px;
+    height: 35px;
+    border: 0;
+    padding-left: 10px; }
+  div.chamada-header input[type=email]:focus {
+    outline: 0; }
+  div.chamada-header input[type=submit] {
+    width: 181px;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #ff5f27;
+    color: white;
+    border: 0; }
+
+/*# sourceMappingURL=header.css.map */

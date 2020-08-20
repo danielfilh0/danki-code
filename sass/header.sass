@@ -1,0 +1,93 @@
+header 
+	background-image: url('../images/bg.jpg')
+	min-height: 500px
+	padding: 30px 0
+	background-size: cover
+	background-position: center
+
+.logo
+	position: relative
+	z-index: 2
+	background-image: url('../images/logo.png')
+	background-size: 100% 100%
+	float: left
+	width: 132px
+	height: 20px
+
+nav.desktop
+	float: right
+	ul 
+		list-style-type: none
+		li
+			display: inline-block
+			margin: 0 15px
+	a 
+		color: white
+		text-decoration: none
+
+nav
+	li.btn-nav
+		padding: 3px 8px
+		border-radius: 20px
+		border: 1px solid white
+
+nav.mobile 
+	display: none
+	float: right
+	ul
+		display: none
+		background: #31475e
+		position: absolute
+		left: 0
+		top: 0
+		width: 100%
+		padding: 70px 0 30px 0
+		text-align: center
+		li.btn-nav
+			display: inline-block
+			padding: 4px 10px 
+		li
+			padding: 10px 0
+			a
+				color: white
+				text-decoration: none
+				display: block
+	h3 
+		position: relative
+		z-index: 2
+		top: -10px
+		color: white
+		cursor: pointer
+		font-size: 30px
+
+div.chamada-header
+	padding: 110px 0
+	h2 
+		font-size: 47px
+		color: white
+	p
+		font-size: 20px
+		color: white
+		font-weight: lighter
+		margin-top: 30px
+		max-width: 600px
+	form
+		margin-top: 30px
+	input[type=email]
+		display: inline-block
+		border-radius: 20px
+		background: white
+		width: 237px
+		height: 35px
+		border: 0
+		padding-left: 10px
+	input[type=email]:focus
+		outline: 0
+	input[type=submit]
+		width: 181px
+		height: 43px
+		cursor: pointer
+		border-radius: 100px
+		background-color: #ff5f27
+		color: white
+		border: 0
